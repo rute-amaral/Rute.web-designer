@@ -1,0 +1,10 @@
+body{
+    background-image: url('../images/gifts.png');
+   
+}
+
+.navbar{
+    font-family:  'fantasy';
+    text-align: center;
+    font-style: italic;
+}

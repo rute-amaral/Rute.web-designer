@@ -11,11 +11,28 @@
 
 ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0px;
-    background-color: rgba(8, 133, 95, 0.664);
+    margin: 0px;
+    padding: 40px;
+    overflow: hidden;
+    background-color: rgba(8, 133, 96, 0.438);
     text-align: center;
 }
+
+li{
+    float: left;
+    font-size: 20px;
+}
+
+li a{
+    display: list-item;
+    color: rgb(255, 255, 255);
+    font-family:  'fantasy';
+    text-align: center;
+    font-style: italic;
+    padding: 10px 120px;
+    text-decoration: none;
+}
+
 
 h1{
     color :rgba(163, 148, 10, 0.795);
