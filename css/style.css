@@ -1,0 +1,89 @@
+.imagem {
+    background-image: url('../images/flower.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1100px;
+    
+}
+
+.centered {text-align: center}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    background-color: rgba(8, 133, 95, 0.664);
+    text-align: center;
+}
+
+h1{
+    color :rgba(163, 148, 10, 0.795);
+    font-family: 'fantasy';
+    font-size: 100px;
+    font-style: italic
+}
+
+h2{ 
+    color: rgba(128, 128, 128, 0.801);
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    font-style: italic
+}
+
+h3{ 
+    color: rgba(128, 128, 128, 0.801);
+    font-family: 'Franklin Gothic Medium';
+    font-size: 18px;
+    font-style: italic
+}
+
+.declaracao{
+padding-top: 20px
+}
+
+th{
+    color:rgba(47, 109, 78, 0.705);
+    font-family: 'Fantasy';
+    font-size: 30px;
+    font-style: italic;
+    padding-top: 35px
+}
+
+.morada{
+    color: rgb(74, 133, 131);
+    font-family: 'Fantasy';
+    font-size: 17px;
+    font-style: italic;
+    text-align: right;
+    margin-right: 20px
+}
+
+.title {padding-top: 340px}
+   
+.duvidas {
+    color:rgba(163, 148, 10, 0.795);
+    font-family: 'fantasy';
+    font-size: 30px;
+    font-style: italic
+}
+
+.contactos{
+    color: rgb(32, 78, 55);
+    font-family: 'Fantasy';
+    font-size: 17px;
+    font-style: italic;
+    text-align: right;
+    margin-right: 20px
+}
+
+.footer {
+    padding-top: 25px;
+    font-family: 'fantasy';
+    font-size: 17px;
+    color: rgb(32, 78, 55);
+    font-style: italic;
+    margin-left: 20px; 
+}
+
+
