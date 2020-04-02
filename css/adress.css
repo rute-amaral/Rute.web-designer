@@ -1,0 +1,48 @@
+.navbar{
+    font-family:  'fantasy';
+    width: 100‰;
+    background-color: rgb(8, 133, 96, 0.438);
+    overflow: auto;
+    font-style: italic
+}
+
+.navbar a{
+    font-family:  'fantasy';
+    font-size: 20px;
+    float: left;
+    padding: 40px 30px 40px;
+    color: white;
+    width: 70‰;
+    text-decoration: none
+}
+
+h1{
+    color :rgba(163, 148, 10, 0.795);
+    font-family: 'fantasy';
+    font-size: 80px;
+    font-style: italic;
+    text-align: center
+}
+
+h2{ 
+    color: rgba(128, 128, 128, 0.801);
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    font-style: italic;
+    text-align: center
+}
+
+h3{ 
+    color: rgba(128, 128, 128, 0.801);
+    font-family: 'Franklin Gothic Medium';
+    font-size: 18px;
+    font-style: italic;
+    text-align: center
+}
+h4{ 
+    color: rgba(128, 128, 128, 0.801);
+    font-family: 'Franklin Gothic Medium';
+    font-size: 18px;
+    font-style: italic;
+    text-align: center
+}
