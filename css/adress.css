@@ -1,5 +1,10 @@
 body{
     margin: 0;
+    background-image: url('../images/trip.png');
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: left bottom;
+
 }
 
 
@@ -24,30 +29,47 @@ body{
 h1{
     color :rgba(163, 148, 10, 0.795);
     font-family: 'fantasy';
-    font-size: 80px;
+    font-size: 50px;
     font-style: italic;
-    text-align: center
+    text-align: right;
+    padding-right: 290px;
 }
 
 h2{ 
-    color: rgba(128, 128, 128, 0.801);
-    font-family: 'Franklin Gothic Medium';
-    font-size: 25px;
+    color: rgba(60, 141, 130, 0.596);
+    font-family: 'fantasy';
+    font-size: 18px;
     font-style: italic;
-    text-align: center
+    text-align: right;
+    padding-right: 130px;
+    padding-top: 250px;
 }
 
 h3{ 
-    color: rgba(128, 128, 128, 0.801);
-    font-family: 'Franklin Gothic Medium';
-    font-size: 18px;
+    color: rgba(60, 141, 130, 0.596);
+    font-family: 'fantasy';
+    font-size: 16px;
     font-style: italic;
-    text-align: center
+    text-align: right;
+    padding-right: 130px;
 }
 h4{ 
-    color: rgba(128, 128, 128, 0.801);
-    font-family: 'Franklin Gothic Medium';
-    font-size: 18px;
+    color: rgba(60, 141, 130, 0.596);
+    font-family: 'fantasy';
+    font-size: 16px;
     font-style: italic;
-    text-align: center
+    text-align: right;
+    padding-right: 130px;
+}
+
+ul{
+    text-decoration: none;
+    font-size: 16px;
+    font-family:'Fantasy';
+    font-style: italic;
+    color: gray;
+    padding-right: 130px;
+    text-align: right;
+    list-style-type: none;
+
 }

@@ -61,7 +61,7 @@ ul{
     transition: 0.5s;
     height: 460px;
     width: 300px;
-    background-color: rgba(252, 230, 110, 0.281);
+    background-color: rgba(110, 252, 169, 0.336);
     padding-top: 190px;
     padding-right: 40px;
 }
@@ -84,4 +84,8 @@ ul{
     padding-left: 25px;
     text-align: left;
     padding-top: 100px;
+}
+
+.paragrafosfixes{
+    text-decoration: none;
 }
