@@ -35,7 +35,7 @@ h2{
     font-size: 18px;
     font-style: italic;
     text-align: center;
-    margin-right: 400px;
+    margin-right: 270px;
     padding-top: 200px;
 }
 
@@ -45,16 +45,12 @@ h3{
     font-size: 14px;
     font-style: italic;
     text-align: center;
-    margin-right: 400px;
+    margin-right: 200px;
 }
 
-.footer{
-    text-align: center;
-    font-family: 'fantasy';
-    font-size: 17px;
-    color: rgb(32, 78, 55);
-    font-style: italic;
-    padding-top: 95px;
+ul{
+    list-style-type: none;
+    text-align: left;
 }
 
 .sidenav{
@@ -65,16 +61,27 @@ h3{
     transition: 0.5s;
     height: 460px;
     width: 300px;
-    background-color: rgba(0, 0, 0, 0.281);
-    padding-top: 230px;
+    background-color: rgba(252, 230, 110, 0.281);
+    padding-top: 190px;
+    padding-right: 40px;
 }
 
 .sidenav a{
     font-family:'Fantasy';
     font-size: 20px;
-    float: left;
-    color: rgb(151, 134, 34);
+    color: rgb(32, 124, 131);
     text-decoration: none;
     font-style: bold;
-    padding-left: 20px;
+    padding-left: 14px;
+}
+
+.informations{
+    font-size: 16px;
+    text-decoration: none;
+    font-family:'Fantasy';
+    font-style: italic;
+    color: gray;
+    padding-left: 25px;
+    text-align: left;
+    padding-top: 100px;
 }
