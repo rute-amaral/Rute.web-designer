@@ -1,8 +1,8 @@
 body{
     margin: 0;
-    background-image: url('../images/balloons.png');
+    background-image: url('../images/girafa.png');
     background-repeat: no-repeat;
-    background-size: 700px;
+    background-size: 600px;
     background-position: right;
    
 }
@@ -61,7 +61,7 @@ ul{
     transition: 0.5s;
     height: 460px;
     width: 300px;
-    background-color: rgba(110, 252, 169, 0.336);
+    background-color: rgba(243, 160, 222, 0.267);
     padding-top: 190px;
     padding-right: 40px;
 }
