@@ -1,7 +1,11 @@
-
-
-
-
+body{
+    margin: 0;
+    background-image: url('../images/balloons.png');
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: right;
+   
+}
 
 
 .navbar{
@@ -12,46 +16,65 @@
     font-style: italic
 }
 
+
+
 .navbar a{
     font-family:  'fantasy';
     font-size: 20px;
     float: left;
-    padding: 40px 97px 40px;
+    padding: 40px 107px 40px;
     color: white;
     width: 70‰;
     text-decoration: none
 }
 
-h1{
-    color :rgba(163, 148, 10, 0.795);
-    font-family: 'fantasy';
-    font-size: 80px;
-    font-style: italic;
-    text-align: center
-}
 
 h2{ 
     color: rgba(128, 128, 128, 0.801);
     font-family: 'Franklin Gothic Medium';
-    font-size: 25px;
+    font-size: 18px;
     font-style: italic;
-    text-align: center
+    text-align: center;
+    margin-right: 400px;
+    padding-top: 200px;
 }
 
 h3{ 
     color: rgba(128, 128, 128, 0.801);
     font-family: 'Franklin Gothic Medium';
-    font-size: 18px;
+    font-size: 14px;
     font-style: italic;
-    text-align: center
+    text-align: center;
+    margin-right: 400px;
 }
 
 .footer{
     text-align: center;
     font-family: 'fantasy';
-    padding-top: 25px;
     font-size: 17px;
     color: rgb(32, 78, 55);
     font-style: italic;
-    margin-left: 20px; 
+    padding-top: 95px;
+}
+
+.sidenav{
+    font-family:  'fantasy';
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    transition: 0.5s;
+    height: 460px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.281);
+    padding-top: 230px;
+}
+
+.sidenav a{
+    font-family:'Fantasy';
+    font-size: 20px;
+    float: left;
+    color: rgb(151, 134, 34);
+    text-decoration: none;
+    font-style: bold;
+    padding-left: 20px;
 }

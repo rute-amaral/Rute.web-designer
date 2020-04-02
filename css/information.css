@@ -1,7 +1,10 @@
+body{
+    margin: 0;
+}
 .navbar{
     font-family:  'fantasy';
     width: 100‰;
-    background-color: rgb(8, 133, 96, 0.438);
+    background-color: rgba(8, 133, 96, 0.5);
     overflow: auto;
     font-style: italic
 }
@@ -39,3 +42,13 @@ h3{
     font-style: italic;
     text-align: center
 }
+
+.footer{
+    text-align: center;
+    font-family: 'fantasy';
+    font-size: 17px;
+    color: rgb(32, 78, 55);
+    font-style: italic;
+    padding-bottom: 30px;
+}
+

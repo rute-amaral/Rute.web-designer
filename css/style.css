@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .imagem {
     background-image: url('../images/flower.png');
     background-repeat: no-repeat;
@@ -68,7 +72,7 @@ th{
 }
 
 
-.title {padding-top: 340px}
+.title {padding-top: 300px}
    
 .duvidas {
     color:rgba(163, 148, 10, 0.795);
