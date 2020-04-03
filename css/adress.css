@@ -3,7 +3,7 @@ body{
     background-image: url('../images/trip.png');
     background-repeat: no-repeat;
     background-size: 600px;
-    background-position: left bottom;
+    background-position: right bottom;
 
 }
 
@@ -31,8 +31,8 @@ h1{
     font-family: 'fantasy';
     font-size: 50px;
     font-style: italic;
-    text-align: right;
-    padding-right: 290px;
+    text-align: center;
+    padding-right: 90px;
 }
 
 h2{ 
@@ -40,26 +40,26 @@ h2{
     font-family: 'fantasy';
     font-size: 18px;
     font-style: italic;
-    text-align: right;
-    padding-right: 130px;
+    text-align: left;
+    padding-left: 90px;
     padding-top: 250px;
 }
 
 h3{ 
     color: rgba(60, 141, 130, 0.596);
     font-family: 'fantasy';
-    font-size: 16px;
+    font-size: 18px;
     font-style: italic;
-    text-align: right;
-    padding-right: 130px;
+    text-align: left;
+    padding-left: 90px;
 }
 h4{ 
     color: rgba(60, 141, 130, 0.596);
     font-family: 'fantasy';
-    font-size: 16px;
+    font-size: 18px;
     font-style: italic;
-    text-align: right;
-    padding-right: 130px;
+    text-align: left;
+    padding-left: 90px;
 }
 
 ul{
@@ -72,4 +72,25 @@ ul{
     text-align: right;
     list-style-type: none;
 
+}
+.location{
+    font-family:  'fantasy';
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    transition: 0.5s;
+    height: 460px;
+    width: 300px;
+    background-color: rgba(222, 184, 135, 0.479);
+    padding-top: 190px;
+    padding-right: 40px;
+}
+.lost{
+     text-align: center;
+    font-family: 'fantasy';
+    font-size: 17px;
+    color: rgb(32, 78, 55);
+    font-style: italic;
+    padding-top: 220px;
+    padding-right: 90px;
 }
