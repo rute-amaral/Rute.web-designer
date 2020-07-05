@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Exemplo nº2</title>
+        <link rel="stylesheet" type="text/css" href="_css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>O meu website</h1>
+            <ul class="rslides">
+                <li><img src="_img/1.jpg" alt=""></li>
+                <li><img src="_img/2.jpg" alt=""></li>
+                <li><img src="_img/3.jpg" alt=""></li>
+            </ul>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="_js/responsiveslides.min.js"></script>
+        <script>
+            $(function() {
+            $(".rslides").responsiveSlides();
+            });
+        </script>
+    </body>
+</html>
